@@ -1,0 +1,816 @@
+/*Pagina 1*/
+.primerabarra{
+    align-items: center;
+    display: flex;
+    background-color: rgb(89,89,91);
+    position: relative;
+    width: 101%;
+    height: 100px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 0s;
+  }
+  .primerespacio{
+    background-color: #f56425;
+    position: relative;
+    width: 60%;
+    height: 60px;
+    margin: 20px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 1s;
+  }
+  .segundoespacio{
+    background-color: white;
+    position: relative;
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 1s;
+  }
+  .tercerespacio{
+    background-color: white;
+    position: relative;
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 1s;
+  }
+  .cuartoespacio{
+    background-color: #e5a42e;
+    position: relative;
+    width: 90%;
+    height: 40px;
+    margin: 20px;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 1s;
+  }
+  .fondogris{
+    background-color: #414143;
+    height: 100vh;
+    width: 100%;
+  }
+  .primercuadrado{
+    margin: 30px;
+    background-color: #f46523;
+    width:35%;
+    height:200px;
+    display: flex;
+    margin: 0 0.8rem;
+    margin-top: 0.8rem;
+    animation: bounceOutRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 2s;
+  }
+  .prueba1{
+    display: flex;
+    margin: 0 0.5rem;
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    margin-left: 80px;
+    color: white;
+    justify-content: center;
+  }
+  .segundocuadrado{
+    margin: 30px;
+    background-color: #e6a233;
+    width:25%;
+    height:200px;
+  }
+  .grisfondo{
+    background-color: #6d6e72;
+    width: 95%;
+    height: 100vh;
+  }
+  .pol1{
+    margin-left: 0.8rem;
+    color: white;
+    animation: bounceOutRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 2s;
+  }
+  /*pagina 2*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .padre{
+    background-color: rgb(89,89,91);
+    position: relative;
+    width: 101.5%;
+    height: 400px;
+  }
+  .cuadroamarillo{
+    background-color: rgb(230,163,50);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    animation: bounceOutRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;  
+  }
+  .texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    animation: shakeX; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;  
+   }
+   .cajagris{
+    background-color: rgb(65,64,69);
+    position: relative;
+    width: 100vh;
+    height: 400px;
+    margin-top: 50px;
+    animation: rubberBand; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 2s;  
+  }
+  .cajagris2{
+    background-color: rgb(65,65,67);
+    right: 5vh;
+    width: 30%;
+    height: 1000px;
+    position: absolute;
+  }
+  .cuadrorojo1{
+    background-color: rgb(196,31,62);
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;  
+  } 
+  .cuadrorojo2{
+    background-color: rgb(236,28,35);
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+  }
+  .cuadrorojo3{
+    background-color: rgb(204,31,40);
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+  }  
+  .subtitulo1{
+    left: 150px;
+    position: absolute;
+  }
+  .texto1{
+    top: 40px;
+    left: 150px;
+    position: absolute;
+  }
+  .cuadrorojo4{
+    background-color: rgb(241,90,80);
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: 50px;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+  } 
+  .textone{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+  
+  }
+  .textosubtitulo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+  }
+  .rectangulonaranja{
+    background-color: rgb(89,89,81);
+    display: flex;
+    width: 100%;
+    height: 10em;
+    animation: flash; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 4s;
+  }
+  /*Pagina 3*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .padre3{
+    background-color: rgb(89,89,91);
+    position: relative;
+    width: 101.7%;
+    height: 100px;
+  }
+  .barra4{
+    background-color: white;
+    position: relative;
+    width: 15vh;
+    height: 40px;
+    margin: 30px;
+    border: 10px;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+  .barra5{
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    margin: 30px;
+    left: 1030px;
+  }
+  .barra6{
+    background-color: gray;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    margin: 30px;
+    left: 1110px;
+  }
+  .barra7{
+
+    background-color: white;
+    position: absolute;
+    width: 280px;
+    height: 40px;
+    margin: 30px;
+    left: 1190px;
+  }
+  .barra8{
+    background-color: orange;
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    margin: 30px;
+    left: 1450px;
+  }
+  .cuadroytexto{
+    background-color: rgb(194,32,64);
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 2s;
+    
+  }
+  }
+  .parrafo3{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    
+  } 
+  .titulo32{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    position: relative;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 2s;  
+  } 
+  .cuadrogris1{
+    background-color: rgb(65,65,67);
+    position: relative;
+    width: 75em;
+    height: 50vh;
+    margin: 50px;
+  }
+   .parrafoycaja{
+    display: flex;
+    justify-content: center;
+   }
+   .rectangulonaranja3{
+    position: relative;
+    right: 60px;
+    background-color: rgb(65,65,67);
+    display: flex;
+    width: 100%;
+    height: 5em;
+  }
+   .rectangulonaranja31{
+    position: relative;
+    right: 60px;
+    background-color: rgb(87,89,91);
+    display: flex;
+    width: 100%;
+    height: 5em;
+  }
+   .rectangulonaranja32{
+    position: relative;
+    right: 60px;
+    background-color: rgb(112,111,116);
+    display: flex;
+    width: 100%;
+    height: 5em;
+  }
+  /*Pagina 4*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .texto{
+    font-size: 20px;
+    position: relative;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;
+  }
+  .tituloo{
+    position: relative;
+    font-size: 20px;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;  
+  }
+  .cuadradrogranderojo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(196,31,62);
+    width: 100%;
+    height: 65vh;
+    margin: 15px;
+    padding: 10px;
+    animation: jello; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 0s;  
+  }
+  .triangle1{
+    position: relative;
+    height: 0; 
+    border-left: 88px solid white;
+    border-top: 65px solid transparent;
+    border-bottom: 65px solid transparent;
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  .tepage4{
+    position: relative;
+    animation: tada; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3s; /* don't forget to set a duration! */
+    animation-delay: 4s;
+  }
+  .textopartebaja{
+    position: relative;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+    animation-delay: 5s;
+  }
+    /*pagina 5*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  header{
+      background-color: #404042;
+      width: 100%;
+      / define altura de pantalla*/
+      height: 50vh;
+  }
+  .distribucion{
+      display: flex;
+  }
+  .cajaroja{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #c21d3d;
+      width: 100%;
+      height: 45vh;
+      margin: 15px;
+      padding: 10px;
+      animation: bounceIn;
+      animation-duration: 3s;
+      animation-delay: 1s;
+  }
+  .triangle{
+      width: 0; 
+      height: 0; 
+      border-left: 78px solid white;
+      border-top: 45px solid transparent;
+      border-bottom: 45px solid transparent;
+      animation: bounce;
+      animation-duration: 3s;
+      animation-delay: 1s;
+   }
+   h1{
+       color: white;
+       text-align: center;
+  
+   }
+   p{
+       color: white;
+   }
+   .cajaparrafo{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       padding: 30px;
+   }
+   .rectangorange{
+       background-color: orange;
+       display: flex;
+       width: 100%;
+       height: 10em;
+       align-items:stretch;
+       position: relative;
+       animation: tada;
+       animation-duration: 3s;
+       animation-delay: 2s;
+   }
+   .cajader{
+       background-color: #404042;
+   }
+   h2{
+       color: white;
+   }
+   .titulopage5{
+      position: relative;
+      animation: bounceIn;
+      animation-duration: 3s;
+      animation-delay: 1s;
+   }
+   .textopage55{
+    position: relative;
+    animation: bounce;
+    animation-duration: 3s;
+    animation-delay: 2s;
+   }
+   .titulosdeabajogris{
+    position: relative;
+    animation: flipInX;
+    animation-duration: 3s;
+    animation-delay: 4s; 
+   }
+   .subtexto50{
+    position: relative;
+    animation: flipInX;
+    animation-duration: 3s;
+    animation-delay: 4s; 
+   }
+
+   /*pagina 6*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .distribucion6{
+    background-color:rgb(89,89,91);
+    display:flex;
+    align-items: center;
+    height: 5em;
+  }
+  .cuadrogrisone{
+    background-color:gray;
+    width:100%;
+    height:60%;
+    padding: 10px;
+    position: relative;
+    animation: shakeX;
+    animation-duration: 2s;
+    animation-delay: 2s; 
+  }
+  .cuadroblancoone{
+    background-color:white;
+    width: 100%;
+    height: 60%;
+    padding: 10px;
+    position: relative;
+    animation: bounceOut;
+    animation-duration: 2s;
+    animation-delay: 3s; 
+  }
+  .cuadrorangeone{
+    background-color: orange;
+    width:100%;
+    height:60%;
+    padding: 10px;
+    position: relative;
+    animation: bounceIn;
+    animation-duration: 2s;
+    animation-delay: 4s; 
+  }
+  .cajagris66{
+    background-color: #2b2b2d;
+    display: flex;
+    height: 70vh;
+  }
+  .cajagris6{
+    background-color: #2b2b2d;
+    display: flex;
+    height: 90vh;
+  }
+  .colorpone{
+    color: white;
+    position: relative;
+    animation: shakeY;
+    animation-duration: 3s;
+    animation-delay: 1s; 
+  }
+  .orangeone{
+    background-color: orange;
+    color:white;
+  }
+  .k{
+    position: relative;
+    right: 60px;
+    background-color: orange;
+    display: flex;
+    width: 100%;
+    height: 10em;
+  }
+  .l{
+    position: relative;
+    right: 60px;
+  }
+  .p{
+    background-color: rgb(44,44,46);
+  }
+  .colorwhite{
+    color: white;
+    position: relative;
+    animation: bounceIn;
+    animation-duration: 2s;
+    animation-delay: 4s; 
+  }
+  /*Pagina 7*/
+   {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .cuadrograngriss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    height: 65vh;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+    animation: fadeInDownBig;
+    animation-duration: 3s;
+    animation-delay: 1s; 
+  }
+  .cuadroblancoo{
+    background-color:white;
+    width: 50vh;
+    height: 8%;
+    position: relative;
+    animation: fadeInUpBig;
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
+  .cuadroamarilloo{
+    background-color: rgb(230,163,50);
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin-top: 25px;
+    animation: bounceIn;
+    animation-duration: 2s;
+    animation-delay: 4s;
+  }
+  .parrafo8{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    animation: bounce;
+    animation-duration: 5s;
+    animation-delay: 3s;
+  }
+  .cuadrogrisop{
+    margin: 25px;
+    margin-left: 100px;
+    background-color: gray;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: swing;
+    animation-duration: 8s;
+    animation-delay: 2s;
+  }
+  .ipsum{
+    margin-top: 15px;
+    font-size: 80%;
+  }
+  .amet2{
+    margin-left: 30px;
+  }
+  /*Pagina 8*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .cuadrograngrisss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    width: 100%;
+    height: 65vh;
+    margin: 15px;
+    padding: 10px;
+    animation: rubberBand;
+    animation-duration: 3s;
+    animation-delay: 2s;
+  }
+  .pequeñogris{
+    margin-top: 400px;
+    margin-left: 30px;
+    background-color: gray;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    animation: swing;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+  .naranjaa{
+    color: rgb(252, 78, 34);
+    animation: bounce;
+    animation-duration: 4s;
+    animation-delay: 4s;
+  }
+  .cuadrogrisopp{
+    margin: 20px;
+    background-color: rgb(65,70,67);
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: bounce;
+    animation-duration: 4s;
+    animation-delay: 5s;
+  }
+  .cuadrogrisopp1{ 
+    margin: 20px;
+    background-color: rgb(87,89,91);
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: bounce;
+    animation-duration: 4s;
+    animation-delay: 6s;
+  }
+  .cuadrogrisopp2{
+    margin: 20px;
+    background-color: rgb(108,110,114);
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: bounce;
+    animation-duration: 4s;
+    animation-delay: 7s;
+  }
+  .cuadrogrisopp3{
+    margin: 20px;
+    background-color: gray;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: tada;
+    animation-duration: 3s;
+    animation-delay: 8s;
+  }
+  .cuadrogrisopp4{ 
+    margin: 20px;
+    background-color: gray;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: tada;
+    animation-duration: 3s;
+    animation-delay: 9s;
+  }
+  .cuadrogrisopp5{
+    margin: 20px;
+    background-color: gray;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    animation: tada;
+    animation-duration: 3s;
+    animation-delay: 10s;
+  }
+  .parrafoo{
+    margin-top: 200px;
+  }
+  .alinear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .alinear2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /*Pagina 9*/
+  {
+    box-sizing: border-box;
+  }
+  body{
+    margin: auto;
+    background-color: rgb(40,37,37);
+  }
+  .naranjaa1{
+    color: rgb(255, 145, 0);
+    text-align: left;
+    animation: tada;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+  }
+  .pqñgris{
+    margin: 20px;
+    background-color: rgb(65,65,67);
+    position: relative;
+    width: 150px;
+    height: 150px;
+    animation: swing;
+    animation-duration: 4s;
+    animation-delay: 3s;
+  }
+  .grislargo{
+    margin: 20px;
+    background-color: rgb(44,44,46);
+    position: relative;
+    width: 80%;
+    height: 150px;
+    animation: backInRight;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  }
+  .titulitar{
+    color: rgb(255, 145, 0);
+    animation: tada;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+  }
